@@ -1,0 +1,16 @@
+/* Debugging */
+/* * {
+    border: 1px dotted red;
+    margin: -1px;
+} */
+
+/* GENERAL STUFF */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
