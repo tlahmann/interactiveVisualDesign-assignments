@@ -7,10 +7,27 @@
 /* GENERAL STUFF */
 
 body {
-    font-family: "Open Sans", sans-serif;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#explanation-wrapper {
+  position: relative;
+  width: 100%;
+  height: 29%;
+  border-bottom: 2px solid #c4c4c4;
+}
+#explanation-box {
+  width: 60%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+#chart {
+  position: relative;
+  width: 100%;
+  height: 71%;
 }

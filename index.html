@@ -21,10 +21,21 @@
 
     <!-- Scripts -->
     <script src="./libs/d3/d3.js" type="text/javascript" charset="utf-8"></script>
-    <script defer src="./scripts/myScript.js" type="text/javascript" charset="utf-8"></script>
+    <script defer src="./scripts/main.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
+    <div id="explanation-wrapper">
+        <div id="explanation-box">
+            <h3>Erklärung: </h3>
+            <p>Diese Seite soll der Veranschaulichung der ViewBox von SVG dienen. Durch Drücken der Tasten [1, 2, 3]
+                kann zwischen 3 Modi gewählt werden. Die folgende erkälärung der Modi wird entsprechend des aktuellen
+                Modus angepasst. In allen Modi kann die Maus bewegt werden um eine Veränderung zu erziehlen.</p>
+            <p id="explanation"></p>
+            <div id="svg-shadow"></div>
+        </div>
+    </div>
+    <div id="chart"></div>
 </body>
 
 </html>
